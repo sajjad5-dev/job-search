@@ -1,5 +1,5 @@
 <?php
-require 'includes/auth.php';
+require 'degsin/includes/auth.php';
 session_destroy();
 header("Location: login.php");
 exit();

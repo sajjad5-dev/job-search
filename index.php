@@ -1,6 +1,6 @@
 <?php
-require 'includes/auth.php';
-require 'includes/db.php';
+require 'desgin/includes/auth.php';
+require 'desgin/includes/db.php';
 
 $totalJobs      = $pdo->query("SELECT COUNT(*) FROM jobs")->fetchColumn();
 $totalUsers     = $pdo->query("SELECT COUNT(*) FROM users")->fetchColumn();
@@ -25,7 +25,7 @@ $typeCounts = $pdo->query("
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JobSearch - Find Your Dream Job</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="desgin/css/style.css">
 </head>
 <body>
 

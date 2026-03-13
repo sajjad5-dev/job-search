@@ -1,6 +1,6 @@
 <?php
-require 'includes/auth.php';
-require 'includes/db.php';
+require 'desgin/includes/auth.php';
+require 'desgin/includes/db.php';
 
 $search   = trim($_GET['search']   ?? '');
 $location = trim($_GET['location'] ?? '');

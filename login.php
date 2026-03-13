@@ -1,6 +1,6 @@
 <?php
-require 'includes/auth.php';
-require 'includes/db.php';
+require 'desgin/includes/auth.php';
+require 'desgin/includes/db.php';
 
 // Redirect if already logged in
 if (isLoggedIn()) {
